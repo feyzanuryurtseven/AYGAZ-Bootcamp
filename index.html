@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kahve Tarifleri Portföyü</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="zoomLogo()">
+            <img src="image/flogo.jpeg" alt="Site Logosu">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Anasayfa</a></li>
+                <li><a href="#about" onclick="showAbout()">Hakkında</a></li>
+                <li><a href="#contact" onclick="showContact()">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="container">
+                <h1>Kahve Tarifleri Portföyü</h1>
+                <p>Hoş geldiniz! Burada Amerikano, Espresso, Mocha, Latte ve Türk Kahvesi tariflerini bulabilirsiniz.</p>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2>Hakkında</h2>
+                <p>Portföy galerimizdeki kahve tariflerinin hepsi özenle seçilmiş ve hazırlanmıştır. Size en iyi kahve deneyimini sunmak için buradayız.</p>
+            </div>
+        </section>
+        <section id="recipes">
+            <div class="container">
+                <h2>Kahve Tarifleri</h2>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <article class="coffee-recipe">
+                            <h3>Amerikano</h3>
+                            <img src="image/Amerikano.png" alt="Amerikano" width="250" height="230">
+                            <p>Americano tarifi için öncelikle espresso elde etmelisiniz. 7gr toz kahveden 90°C sıcaklıktaki suyun 9 bar (atmosfer) 
+                                basınç ile 35 saniye boyunca akarak 25-30 ml arasında espresso elde edin.
+                                İçme suyunu makinenizin ısıtma çubuğu ile veya farklı bir kaynak (kettle gibi) kullanarak ısıtın.
+                                Isıttığınız suyu maksimum 100ml olacak şekilde espresso üzerine ekleyin.
+                                Americano kahveniz hazırdır.
+                                
+                                Uyarılar:
+                                Sıcak suyu kaynar haldeyken espresso üzerine eklemeyiniz, kullanacağınız suyun kaynadıktan sonra bir-iki dakika dinlendirilmiş olmasına dikkat ediniz.
+                                Americano içmek isteyen kişiye espresso üzerine eklenecek sıcak su miktarını sorabilir, miktar ayarını içecek kişiye bırakabilirsiniz.
+                                Single espresso üzerine maksimum 100ml sıcak su eklenmesi önerilmektedir.</p>
+                        </article>
+                    </div>
+                    <div class="col-lg-4">
+                        <article class="coffee-recipe">
+                            <h3>Espresso</h3>
+                            <img src="image/Espresso.png" alt="Espresso" width="250" height="230">
+                            <p>Espresso Makinesinde Espresso Yapımı:
+
+                                Espressoya uygun öğütülmüş 7gr kahveyi (maksimum 7,5gr) kahve kolundaki hazneye koyun.
+                                Kahve kolunun ucunu masaya dayadıktan sonra sıkıştırma tamperi ile 20kg basınç uygulayarak 
+                                yukarıdan aşağıya ve bir çeyrek tur döndürerek kahveyi sıkıştırın.
+                                Kahve kolunu makineye takarak ideal miktardaki espressoya, 30 saniyeyi geçmeyecek sürede, 
+                                ulaşana kadar makineden su akıtın.
+                                Gurme Espresso Yapmanın Püf Noktaları: 
+                                
+                                Single espressonun 30 saniyede hazırlanması, aromatik profil açısından iyi bir dengeyi ve 
+                                kalıcı kremayı garanti eder.
+                                20ml koyu kavrulmuş espresso için, 25ml ise orta kavrulmuş espresso için uygun bir miktardır.
+                                Doğru miktardaki espressoya 30 saniyeden daha kısa sürede ulaşıyorsanız, çekirdek kahveyi daha 
+                                ince öğütmelisiniz; 30 saniyeden daha uzun sürede ulaşıyorsanız, kahveyi daha kalın öğütmelisiniz.</p>
+                        </article>
+                    </div>
+                    <div class="col-lg-4">
+                        <article class="coffee-recipe">
+                            <h3>Mocha</h3>
+                            <img src="image/Mocha.jpeg" alt="Mocha" width="250" height="230">
+                            <p>Espresso hazırlamak için öncelikle süzgeçli kahve kaşığına yaklaşık 18 gram taze öğütülmüş kahve koyun ve kahve tamperiyle kahveyi 
+                                düzleştirin. Isınan makinenizi temizlemek için makinenizi çalıştırın ve birkaç saniye suyu akıtın. Süzgeçli kahve kaşığınızı makineye 
+                                takın ve double shot espressonuzu tercihen cam bir bardağa aktarın. Bu aşamada su akışının sabit olmasına özen gösterin. Çünkü su 
+                                hızlı akarsa kahveniz tam demlenmez ve açık renkte olur.
+                    
+                                Eğer su yavaş akarsa bu kez de kahve yanma tehlikesiyle karşılaşır ve tadı oldukça sert bir hal alır. Double shot espressonun 
+                                üzerine 24 gram kadar sıcak çikolata tozu ekleyin ve toz kahve içinde çözünene kadar iyice karıştırın.
+                                İkinci aşamada 30 ml soğuk sütü pot içerisine alarak 70°C dereceye kadar köpürterek ısıtın.
+                                
+                                Sütü ısıtırken yaklaşık 1 parmak kalınlığında mikro köpük elde etmeye özen gösterin. Buharla ısıttığınız ve köpürttüğünüz 
+                                sütü, toz çikolata ile karıştırdığınız espressonuzun ortasından yavaşça bardağa dökün. İsterseniz mochanıza nane şurubu 
+                                ya da vanilya şurubu gibi şurup seçenekleriyle farklı aromalar kazandırabilirsiniz.
+                                Sunum için ise en üste çikolata tozu veya tarçın tozu ekleyebilir, kahve şablonları kullanarak kahvenizin üzerini 
+                                farklı desenlerle süsleyebilirsiniz. Biraz daha göz dolduran bir sunum için krem şanti veya marshmallow da kullanabilirsiniz.</p>
+                        </article>
+                    </div>
+                    <div class="col-lg-4">
+                        <article class="coffee-recipe">
+                            <h3>Latte</h3>
+                            <img src="image/Latte.png" alt="Latte" width="250" height="230">
+                            <p>Latte yapacağınız bardağa 1 shot espresso ekleyin.
+                                Kahve makineniz ile veya başka bir süt köpürtme ekipmanı ile taze sütü ısıtın ve yoğun 
+                                olmamasına dikkat ederek bir miktar köpürtün.
+                                Espresso üzerine ısıtıp köpürttüğünüz sütü ilave ettikten sonra servis edebilirsiniz.
+                                Uyarılar:
+                                
+                                Bu tarifi 150ml hacimli bir bardakta uygulayabilirsiniz. 250ml hacimli bir bardağa 
+                                daha fazla miktarda Latte yapmak için espresso miktarını iki katına, 40-50 ml double 
+                                espresso, süt miktarını ise 200 ml’e çıkarabilirsiniz.</p>
+                        </article>
+                    </div>
+                    <div class="col-lg-4">
+                        <article class="coffee-recipe">
+                            <h3>Türk Kahvesi</h3>
+                            <img src="image/Türk Kahvesi.png" alt="Türk Kahvesi" width="250" height="230">
+                            <p>Cezve içerisine ilk önce kahve, sonra isteniyor ise şeker ve üzerine su sıralaması takip edilerek Türk kahvenizi pişirme ön hazırlığını yapın.
+                                Cezveye her fincan için 2 çay kaşığı Kahve Dünyası Türk Kahvesi ve dilediğiniz kadar şeker ekleyin.
+                                Ardından her fincan için 1 Türk kahvesi fincanı soğuk içme suyu koyun.          
+                                Kahveyi (ve eklediyseniz şekeri) su ile iyice ıslanacak ve çözünecek şekilde karıştırın.         
+                                Cezveyi kısık ateşte üzerinde köpük oluşuncaya kadar kaynama derecesine yaklaşmasını gözleyin.         
+                                Kaynamaya başlamadan önce kısık ateşten alarak üst tabakada kabaran kahve köpüğünü fincanlara eşit miktarda pay edin.         
+                                Cezvede kalan kahveyi bir taşım daha kaynatın ve sonra fincanlara paylaştırın.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kahve Tarifleri Portföyü</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
